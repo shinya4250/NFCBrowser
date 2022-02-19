@@ -12,34 +12,26 @@
  
 * NPOI 2.4.1.0
 * PCSC 5.0.0.0
- 
+* SQLite 1.0.112.0
+
 # Installation
  
 * Nugetにて
 
 # Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
- 
-# Note
- 
-注意点などがあれば書く
+* 別途準備
+ - StationCode.db　・・・・・駅コードのリストファイル
+ - template.xlsx ・・・・・中身は空でもたぶん問題ない
+
  
 # Author
  
 作成情報を列挙する
  
-* 作成者
-* 所属
-* E-mail
+* 作成者　SSHINYA
  
 # License
-ライセンスを明示する
  
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"NFCBrowser" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
