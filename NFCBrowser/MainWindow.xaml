@@ -1,0 +1,22 @@
+﻿<Window x:Class="NFCBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NFCBrowser"
+        mc:Ignorable="d"
+        Title="ICOCA印刷" Height="517.207" Width="750.102">
+    <Grid Margin="0,0,0,6" HorizontalAlignment="Left" Width="697">
+
+        <Button x:Name="ReadCard" Content="ICOCA読込" HorizontalAlignment="Left" Margin="14,21,0,0" VerticalAlignment="Top" Width="158" Height="54" RenderTransformOrigin="0.5,0.5" Click="ReadCard_Click"/>
+        <Button x:Name="PrintCard" Content="ICOCA出力" HorizontalAlignment="Left" Height="54" Margin="14,404,0,0" VerticalAlignment="Top" Width="158" Click="PrintCard_Click"/>
+        <TextBox x:Name="TextBox_Log" HorizontalAlignment="Left" Height="442" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="532" Margin="186,21,-21,0" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible"/>
+        <TextBox x:Name="TextBox_User" HorizontalAlignment="Left" Height="23" Margin="14,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="158" IsReadOnly="True"/>
+        <Label Content="使用者名" HorizontalAlignment="Left" Margin="14,87,0,0" VerticalAlignment="Top" Width="98" Height="26"/>
+        <ListBox x:Name="ListBox_DateList" Height="153" Margin="14,186,0,0" VerticalAlignment="Top" SelectionMode="Multiple" HorizontalAlignment="Left" Width="158"/>
+        <Label Content="印刷対象日付&#xD;&#xA;（複数行選択可）" HorizontalAlignment="Left" Margin="14,145,0,0" VerticalAlignment="Top" Width="158" Height="42"/>
+        <Label Content="顧客コード、訪問先（必須）" HorizontalAlignment="Left" Height="26" Margin="14,342,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="TextBox_Cust" HorizontalAlignment="Left" Height="23" Margin="14,369,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="158"/>
+
+    </Grid>
+</Window>
