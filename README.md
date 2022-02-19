@@ -1,8 +1,6 @@
 # NFCBrowser
  NFC規格の履歴データを読み込むアプリケーションです。
  ICOCAカードを想定しています。
-"hoge"が何かを簡潔に紹介する
- 
  
 # Features
  
